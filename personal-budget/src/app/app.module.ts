@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { P404Component } from './p404/p404.component';
     AboutComponent,
     LoginComponent,
     P404Component
+
   ],
   imports: [
     BrowserModule,
