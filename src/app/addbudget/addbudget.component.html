@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <div class="container">
+      <div class="form">
+    <form>
+      <div class="row">
+        <h1>Add new expenses below</h1>
+        <div class="form-group">
+            <input type="text" class="form-control" [(ngModel)]="title" placeholder="Enter Expense Name" ngModel name="expense" id="expense">
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" [(ngModel)]="maxbudget" placeholder="Enter the max limit" ngModel name="limit" id="limit">
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" [(ngModel)]="budget" placeholder="Enter the spent amount" ngModel name="current" id="current">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary"(click)="sendExpense()" [disabled]="!title || !maxbudget || !budget">Submit</button>
+        </div>
+    </div>
+    </form>
+  </div>
+  </div>
+
+  </body>
+</html>

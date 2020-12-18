@@ -1,0 +1,20 @@
+<h1>Budget Table</h1>
+<figure id="tabb"></figure>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Category</th>
+            <th>Budget</th>
+            <th>Max Budget</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of data">
+            <td>{{data.indexOf(user)+1}}</td>
+            <td>{{user.title}}</td>
+            <td>{{user.budget}}</td>
+            <td>{{user.maxbudget}}</td>
+        </tr>
+    </tbody>
+</table>

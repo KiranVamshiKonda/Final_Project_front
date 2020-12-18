@@ -1,0 +1,51 @@
+.login-page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+h1 {
+  color: #000002;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: silver;
+  max-width: 400px;
+  margin: 0 auto 50px;
+  padding: 0px;
+  text-align: center;
+  border: #0b7cb1;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #ffffff;
+  width: 90%;
+  border: 0;
+  margin: 0 auto 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.form button {
+  text-decoration: none;
+  background: #0b7cb1;
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  border-style: double;
+  border-block-style: floor($number: 2);
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: #a88c40;
+  text-decoration: none;
+}
